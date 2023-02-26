@@ -22,5 +22,5 @@ def comparefilesagainststandards(directory_path):
     print("Missing file types are:\n"," , ".join(missing_files))
     print("Additional files are:\n"," , ".join(additional_files))
     
-path=r"C:\Users\supri\OneDrive - B.N.M. Institute of Technology\Desktop\helpage"
+# path=r"Desktop\helpage"
 comparefilesagainststandards(".")
