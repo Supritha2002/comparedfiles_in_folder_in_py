@@ -3,10 +3,9 @@ import unittest
 class TestFolder(unittest.TestCase):
 
     def test_for_missing_additional_files(self):
-        missingfiles,additionalfiles=comparefolder(".","standardfile.json")
+        missingfiles,additionalfiles=compare_folder_contents(".","standardfile.json")
         self.assertEqual(len(missingfiles),0)
         self.assertTrue(len(additionalfiles)>=0)
            
-
 if __name__ == '__main__':
     unittest.main()
