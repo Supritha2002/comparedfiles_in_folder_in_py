@@ -1,7 +1,7 @@
 import os
 import json
 
-def comparefolder(directory_path,standard_file):
+def compare_folder_contents(directory_path,standard_file):
     fileObject=open(standard_file,"r")
     jsoncontent=fileObject.read()
     standardfilelist=json.loads(jsoncontent)
