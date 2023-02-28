@@ -4,7 +4,7 @@ import sys
 class TestFolder(unittest.TestCase):
 
     def test_for_missing_additional_files(self):
-        missingfiles,additionalfiles=comparefolder(cmdline_param1,cmdline_param2)
+        missingfiles,additionalfiles=compare_folder_contents(cmdline_param1,cmdline_param2)
         self.assertEqual(len(missingfiles),0)
         self.assertTrue(len(additionalfiles)>=0)
            
