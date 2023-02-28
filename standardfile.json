@@ -3,5 +3,5 @@
     ".env",
     ".env.ncms",
     ".env.common",
-    "main.py"
+    "compare_folder.py"
 ]
