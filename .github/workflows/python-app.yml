@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest testfolders.py "." "standardfile.json"
+        pytest testfolders.py "comparedfiles_in_folder_in_py" "standardfile.json"
