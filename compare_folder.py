@@ -24,4 +24,4 @@ if __name__=="__main__":
 #         sys.exit("Require 3 command line arguments")
 #     cmdline_param1,cmdline_param2=sys.argv[1],sys.argv[2]
 #     del sys.argv[1:]
-    compare_folder_contents(sys.argv[1],sys.argv[2])
+    compare_folder_contents(".","standardfile.json")
