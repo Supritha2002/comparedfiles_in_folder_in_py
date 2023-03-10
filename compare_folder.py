@@ -19,3 +19,5 @@ def compare_folder_contents(directory_path,standard_file):
     [missing_files.append(file) for file in standardfilelist if file not in compared_files ]
     
     return missing_files,additional_files
+if __name__=="__main__":
+    compare_folder_contents(".","standardfile.json")
